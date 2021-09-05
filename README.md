@@ -1,5 +1,6 @@
-# Youtube Thumbnail Generator
-This python script can create youtube video thumbnails with text on them
+# YouTube Thumbnail Generator
+This python script can create YouTube video thumbnails with a text on them.
+Image for thumbnail will be downloaded from https://source.unsplash.com/
 ## Installation
 ```bash
 pip install -r requirements.txt
