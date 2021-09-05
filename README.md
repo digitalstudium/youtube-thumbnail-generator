@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 ## Usage
 ```bash
-python3 main.py <theme> <text on video>
+python3 main.py <theme> <text on image>
 ```
 ## Example
 ### Command
