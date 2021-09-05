@@ -13,6 +13,22 @@ pip install -r requirements.txt
 ```bash
 python3 main.py <theme> <text on image>
 ```
+## Configurable parameters inside `main.py` script:
+```
+background_width = 1280
+background_height = 720
+background_color = "green"
+background_opacity = 128  # number from 0 to 255, where 0 is transparent and 255 is opaque
+background_margin = 70
+
+font_path = '/usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf'
+font_size = 135
+font_colors = ["orange", "yellow", "purple", "white"]
+
+text_width = 10  # in symbols
+
+destination_folder = "./"
+```
 ## Example
 ### Command
 ```bash
