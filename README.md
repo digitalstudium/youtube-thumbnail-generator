@@ -23,7 +23,7 @@ background_margin = 70
 
 font_path = '/usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf'
 font_size = 135
-font_colors = ["orange", "yellow", "purple", "white"]
+font_colors = ["blue", "yellow", "white", "lime"]
 
 text_width = 10  # in symbols
 
