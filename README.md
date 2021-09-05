@@ -37,12 +37,12 @@ python3 main.py yoga "Asanas for beginners"
 ### Results
 As a result you will get 4 images in a folder containing the script:
 ```
-orange_yoga_thumbnail.png
-purple_yoga_thumbnail.png
+blue_yoga_thumbnail.png
+lime_yoga_thumbnail.png
 white_yoga_thumbnail.png
 yellow_yoga_thumbnail.png
 ```
-![Result image 1](example_images/orange_yoga_thumbnail.png?raw=true "Orange")
-![Result image 2](example_images/purple_yoga_thumbnail.png "Purple")
-![Result image 3](example_images/yellow_yoga_thumbnail.png "Yellow")
-![Result image 4](example_images/white_yoga_thumbnail.png "White")
+![Result image 1](example_images/blue_yoga_thumbnail.png?raw=true "Blue")
+![Result image 2](example_images/lime_yoga_thumbnail.png?raw=true "Lime")
+![Result image 3](example_images/yellow_yoga_thumbnail.png?raw=true "Yellow")
+![Result image 4](example_images/white_yoga_thumbnail.png?raw=true "White")
