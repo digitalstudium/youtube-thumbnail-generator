@@ -4,7 +4,7 @@ Image for thumbnail will be downloaded from https://source.unsplash.com/
 
 This script works on Ubuntu operating system out of the box.
 In order to make it work on other operating systems, you should change a path to font in 
-`main.py` script from `/usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf` to something else. 
+`[font]` section of `config.ini` from `/usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf` to correct value. 
 ## Installation
 ```bash
 pip install -r requirements.txt
@@ -13,21 +13,26 @@ pip install -r requirements.txt
 ```bash
 python3 main.py <theme> <text on image>
 ```
-## Configurable parameters inside `main.py` script:
-```
-background_width = 1280
-background_height = 720
-background_color = "green"
-background_opacity = 128  # number from 0 to 255, where 0 is transparent and 255 is opaque
-background_margin = 70
+## Configurable parameters inside `config.ini` file:
+```ini
+[background]
+width = 1280
+height = 720
+color = green
+# opacity - number from 0 to 255, where 0 is transparent and 255 is opaque
+opacity = 128
+margin = 70
 
-font_path = '/usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf'
-font_size = 135
-font_colors = ["blue", "yellow", "white", "lime"]
+[font]
+path = /usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf
+size = 135
+colors = blue,yellow,white,lime
 
-text_width = 10  # in symbols
-
-destination_folder = "./"
+[other]
+# max characters in one line of text
+text_width = 10
+# where to save images
+destination_folder = ./
 ```
 ## Example
 ### Command
