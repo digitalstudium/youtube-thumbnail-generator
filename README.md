@@ -1,6 +1,10 @@
 # YouTube Thumbnail Generator
 This python script can create YouTube video thumbnails with a text on them.
 Image for thumbnail will be downloaded from https://source.unsplash.com/
+
+This script works on Ubuntu operating system out of the box.
+In order to make it work on other operating systems, you should change a path to font in 
+`main.py` script from `/usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf` to something else. 
 ## Installation
 ```bash
 pip install -r requirements.txt
